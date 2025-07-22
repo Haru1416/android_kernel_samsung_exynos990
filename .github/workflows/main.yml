@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: https://github.com/Haru1416/kernel_build_action
+      uses: Haru1416/kernel_build_action@main
       with:
           kernel-url: https://github.com/Haru1416/android_kernel_samsung_exynos990.git
           kernel-dir: lineage-22
