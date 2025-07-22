@@ -16,7 +16,7 @@ jobs:
       uses: Haru1416/kernel_build_action@main
       with:
           kernel-url: https://github.com/Haru1416/android_kernel_samsung_exynos990.git
-          kernel-dir: lineage-22
+          kernel-dir: ExtremeXT
           kernel-branch: main
           config: extreme_r8s_defconfig
           arch: arm64
@@ -24,6 +24,6 @@ jobs:
           aosp-clang: true
           ksu: true
           kvm: true
-          android-version: 14
+          android-version: 12
           aosp-clang-version: r416183b1
           anykernel3: true
